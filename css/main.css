@@ -151,6 +151,7 @@ ol {
 }
 #details {
 	text-align: left;
+	max-width: 100%;
 }
 li {
 	background-color: #ffffff;
