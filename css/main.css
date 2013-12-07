@@ -152,6 +152,7 @@ ol {
 #details {
 	text-align: left;
 	max-width: 100%;
+	border: #000000;
 }
 li {
 	background-color: #ffffff;
