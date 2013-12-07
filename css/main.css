@@ -149,10 +149,9 @@ ol {
 	list-style-type: none;
 }
 #details {
-	text-align: left;
+	text-align: right;
 	max-width: 100%;
 	border: #000000;
-	background-color: #ff0000;
 }
 li {
 	background-color: #ffffff;
