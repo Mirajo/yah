@@ -43,6 +43,9 @@ header{
 	font-weight: bold;
 	Top: 40px;
 }
+img{
+	 float: left;
+}
 p {
 	color: #000000;
 	font: bold 1.0em/1.5em Noto Serif, helvetica, sans-serif;
@@ -81,12 +84,13 @@ a:active {
 }
 h1 {
 	font-family: 'Libre Baskerville', serif;
-	color: #ffffff;
+	color: #000000;
 	text-align: left;
 }
 h2 {
 	text-align: left;
 	font-family: 'Noto Serif', serif;
+	color: #ffffff;
 }
 h3 {
 	text-align: left;
@@ -128,12 +132,22 @@ h3 {
 #eight {
 	float: left;
 	background-color: #ffffff;
-	max-width: 32.777777777778%; 
+	max-width: 50%; 
 }
 #nine{
 	float: left;
-	max-width: 32.777777777778%; 
-	background-color: #ffffff;
+	max-width: 50%; 
+	background-color: #ffffff; 
+}
+#Event{
+	float: left;
+	max-width: 100%; 
+	background-color: #ffffff; 
+}
+#form{
+	float: left;
+	max-width: 100%; 
+	background-color: #ffffff; 
 }
 ul {
 	background-color: #336633;
@@ -144,6 +158,11 @@ ul {
 }
 ol {
 	list-style-type: none;
+}
+#details {
+	text-align: right;
+	max-width: 100%;
+	border: #000000;
 }
 li {
 	background-color: #ffffff;
