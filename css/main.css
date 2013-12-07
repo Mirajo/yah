@@ -133,6 +133,11 @@ h3 {
 	max-width: 100%; 
 	background-color: #ffffff; 
 }
+#form{
+	float: left;
+	max-width: 100%; 
+	background-color: #ffffff; 
+}
 ul {
 	background-color: #336633;
 	margin: 0 auto;
