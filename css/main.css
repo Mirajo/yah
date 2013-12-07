@@ -123,17 +123,7 @@ h3 {
 #nine{
 	float: left;
 	max-width: 32.777777777778%; 
-	background-color: #ffffff;
-}
-#meals {
-	float: left;
-	background-color: #ffffff;
-	width: 300px;  
-}
-#buffett{
-	float: left;
-	background-color: #ffffff;
-	width: 300px;  
+	background-color: #ffffff; 
 }
 ul {
 	background-color: #336633;
