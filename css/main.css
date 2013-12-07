@@ -35,6 +35,9 @@ header{
 	font-weight: bold;
 	Top: 40px;
 }
+img{
+	 float: left;
+}
 p {
 	color: #000000;
 	font: bold 1.0em/1.5em Noto Serif, helvetica, sans-serif;
