@@ -128,12 +128,12 @@ h3 {
 #meals {
 	float: left;
 	background-color: #ffffff;
-	max-width: 50%;  
+	max-width: 300px;  
 }
 #buffett{
 	float: left;
 	background-color: #ffffff;
-	max-width: 50%;  
+	max-width: 300px;  
 }
 ul {
 	background-color: #336633;
