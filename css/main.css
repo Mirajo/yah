@@ -45,20 +45,6 @@ a:hover {
 a:active {
 	color: #ffffff;
 }
-h1 {
-	font-family: 'Libre Baskerville', serif;
-	color: #000000;
-	text-align: left;
-}
-h2 {
-	text-align: left;
-	font-family: 'Noto Serif', serif;
-	color: #ffffff;
-}
-h3 {
-	text-align: left;
-	font-family: 'Noto Serif', serif;
-}
 /* =============================================================================
    Page Styles
    ========================================================================== */
