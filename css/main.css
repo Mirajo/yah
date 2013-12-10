@@ -16,6 +16,7 @@ black 	#000000
 body {
 	max-width: 900px; 
 	font-size: 1.000em
+	margin:0 auto;
 }
 #wrapper{
 	max-width: 100%;
