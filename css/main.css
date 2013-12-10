@@ -14,32 +14,17 @@ black 	#000000
    Site Styles
    ========================================================================== */
 body {
-	background-color: #bac0c5;
 	max-width: 900px; 
-	font-size: 1.000em; /*12px*/
-  	background-color:#FFFFFF;
-  	border:3px solid #E6E6E6;
-  	border-bottom-left-radius:10px;
-  	border-bottom-right-radius:10px;
-  	border-top-left-radius:10px;
-  	border-top-right-radius:10px;
-  	margin:0 auto;
-  	padding:15px 20px;
+	font-size: 1.000em
 }
 #wrapper{
 	max-width: 100%;
-	overflow: hidden;
-	margin: auto;
-	background-color: #336633;
 }
 header{
 	background-color: #ffffff;
-	margin: 0px 0px 30px 0px;
 	height: 250px; 
-	overflow: hidden;
 }
 #nav{
-	color: #336633;
 	font-weight: bold;
 	Top: 40px;
 }
@@ -49,9 +34,6 @@ img{
 p {
 	color: #000000;
 	font: bold 1.0em/1.5em Noto Serif, helvetica, sans-serif;
-	/*------text-align: left;------*/
-	padding: 10px 10px 10px 5px;
-	overflow: auto;
 }
 article {
 	background-color: #ffffff; 
@@ -68,8 +50,6 @@ article {
 }
 a {
 	text-decoration: none;
-	color: #33CC33;
-	background: #ffffff;
 	height: 2.500%; /* 40px */
 }
 a:visited {
