@@ -14,7 +14,6 @@ black 	#000000
    Site Styles
    ========================================================================== */
 body {
-	max-width: 900px; 
 	font-size: 1.000em
 	margin:0 auto;
 }
@@ -38,8 +37,6 @@ p {
 	font: bold 1.0em/1.5em Noto Serif, helvetica, sans-serif;
 }
 article {
-	background-color: #ffffff; 
-	max-width: 100%; 
 	clear: both;
 	overflow: auto;
 	margin: auto;
@@ -74,58 +71,8 @@ h3 {
 /* =============================================================================
    Page Styles
    ========================================================================== */
-#one {
-	float: left;
-	background-color: #ffffff;
-	clear:both;
-}
-#two {
-	max-width: 32.777777777778%;
-	background-color: #ffffff;
-}
-#three {
-	background-color: #ffffff;
-	clear: both;
-}
-#four {
-	float: left;
-	background-color: #ffffff;
-}
-#five {
-	background-color: #ffffff;
-}
-#six {
-	float: left;
-	background-color: #ffffff;
-	clear:both;
-}
-#seven {
-	float: left;
-	background-color: #ffffff;
-	clear: both;
-}
-#eight {
-	float: left;
-	background-color: #ffffff;
-	max-width: 50%; 
-}
-#nine{
-	float: left;
-	max-width: 50%; 
-	background-color: #ffffff; 
-}
-#Event{
-	float: left;
-	max-width: 100%; 
-	background-color: #ffffff; 
-}
-#form{
-	float: left;
-	max-width: 100%; 
-	background-color: #ffffff; 
-}
+
 ul {
-	background-color: #336633;
 	margin: 0 auto;
 	list-style-type: none;
 	padding: 10px;
@@ -134,26 +81,14 @@ ul {
 ol {
 	list-style-type: none;
 }
-#details {
-	text-align: right;
-	max-width: 100%;
-	border: #000000;
-}
 li {
-	background-color: #ffffff;
 	margin: 0 auto;
-	width: 100px; 
 	list-style-type: none;
 	display: inline;
-	padding: 10px; 
 }
 footer {
 	font-family: 'Libre Baskerville', serif;
 	font-weight: bold;
-	color: #336633;
-	text-align: center;
-	background: #ffffff;
-	max-width: 100%;
 }
 /* =============================================================================
    Media Queries
