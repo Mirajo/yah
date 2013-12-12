@@ -7,7 +7,7 @@ body {
 }
 
 a {
-  color: #fff;
+  color: #33CC33;
   text-decoration: none;
 }
 
@@ -40,7 +40,7 @@ p {
 }
 
 .container {
-  background-color: #fff;
+  background-color: #33CC33;
   background-repeat: repeat-y;
   margin-bottom: 20px;
 }
