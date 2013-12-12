@@ -14,13 +14,6 @@ a {
 a:hover {
   text-decoration: underline;
 }
-
-ul {
-	list-style-type: none;
-}
-ol {
-	list-style-type: none;
-}
 li {
 	margin: 0 auto;
 	list-style-type: none;
