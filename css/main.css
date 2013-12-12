@@ -32,7 +32,7 @@ p {
 }
 a {
 	text-decoration: none;
-	height: 2.500%; /* 40px */
+	height: 2.500%; 
 }
 a:visited {
 	color: #336633;
