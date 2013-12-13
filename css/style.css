@@ -16,12 +16,6 @@ a {
 a:hover {
   text-decoration: underline;
 }
-li {
-	margin: 0 auto;
-	list-style-type: none;
-	display: inline;
-}
-
 h1 {
   font-family: Georgia, serif;
   padding-top: 20px;
