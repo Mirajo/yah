@@ -1,45 +1,69 @@
-/*
-Responsive 996px grid system ~ Style CSS.
-Copyright 2013, Josh Cope
-*/
+body {
+  background: #ffffff;
+  color: #333;
+  font-size: 14px;
+  height: auto;
+  padding-bottom: 20px;
+  margin-left:auto;
+  margin-right:auto;
+}
 
-/* =============================================================================
-   Site Styles
-   ========================================================================== */
+a {
+  color: #33CC33;
+  text-decoration: none;
+}
 
-/* =============================================================================
-   Page Styles
-   ========================================================================== */
+a:hover {
+  text-decoration: underline;
+}
+li {
+	margin: 0 auto;
+	list-style-type: none;
+	display: inline;
+}
+h1 {
+  font-family: Georgia, serif;
+  padding-top: 20px;
+  text-align: left;
+}
 
-/* =============================================================================
-   Media Queries
-   ========================================================================== */
+h2 {
+  font-family: Georgia, serif;
+  padding-top: 20px;
+  text-align: left;
+}
 
-/* Tablet Portrait size to Base 996px */
-@media only screen and (min-width: 768px) and (max-width: 995px) {}
+p {
+  border: 0px solid #666;
+  overflow: hidden;
+  padding: 10px 0;
+  text-align: left;
+}
 
-/* All Mobile Sizes */
-@media only screen and (max-width: 767px) {}
+.container {
+  background-color: #bac0c5;
+  background-repeat: repeat-y;
+  margin-bottom: 20px;
+}
 
-/* Mobile Landscape Size to Tablet Portrait */
-@media only screen and (min-width: 480px) and (max-width: 767px) {}
+.container {
+  background-image: url('../demo-files/12_col.png');
+}
 
-/* Mobile Portrait Size to Mobile Landscape Size */
-@media only screen and (max-width: 479px) {}
+@media only screen and (min-width: 768px) and (max-width: 995px) {
+	.container {
+		background-image: url('../demo-files/12_col_768.png');
+	}
+}
 
+@media only screen and (max-width: 767px) {
+	.container {
+		background: #6afd7f;
+	}
+}
 
-/* =============================================================================
-   Font-Face
-   ========================================================================== */
-/* This is the proper syntax for an @font-face file
-
-/* @font-face {
-font-family: 'FontName';
-src: url('../fonts/FontName.eot');
-src: url('../fonts/FontName.eot?iefix') format('embedded-opentype'),
-url('../fonts/FontName.woff') format('woff'),
-url('../fonts/FontName.ttf') format('truetype'),
-url('../fonts/FontName.svg#FontName') format('svg');
-font-weight: normal;
-font-style: normal; }
-*/
+@media only screen and (max-width: 479px) {
+	.container.demo {
+		background: #e16bfe;
+	}
+}
